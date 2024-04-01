@@ -1,0 +1,310 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #190835;
+    color: #DBE7ED;
+}
+
+.border
+{
+    border: 2px solid #FF7245;
+    border-radius: 7px;
+}
+
+.nav 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 80px;
+}
+
+.nav h3
+{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+.nav .technologies
+{
+    color: #FF7245;
+}
+
+.nav ul
+{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav ul li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+.nav ul li a:hover
+{
+    font-weight: bold;
+    color: #7C7484;
+}
+
+.search input
+{
+    outline: none;
+    border: 1.5px solid #944BBB;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-left: 25px;
+}
+
+.section
+{
+    margin: 10px 20px;
+    
+}
+
+.section .text
+{
+    padding: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+.section .text h2
+{
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+.section .content .welcome
+{
+    color: #FF7245;
+    font-size: 50px;
+}
+
+.section .img
+{
+    margin-left: 5%;
+}
+
+.section .img img
+{
+    width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+.content
+{
+    display: flex;
+}
+
+svg
+{
+    position: relative;
+    top: -130px;
+}
+
+.backgroundNode
+{
+    background-color: #5000ca;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 650px;
+}
+
+.btn
+{
+    margin: 20px;
+}
+
+.btn button
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #5000ca;
+    color: #DBE7ED;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn button:last-child
+{
+    background-color: transparent;
+    border: 2px solid #FF7245;
+    
+}
+
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .main-text
+{
+    margin-top: 186px;
+    margin-bottom: 25px;
+}
+
+.main-text::before
+{
+    content: " ";
+    width: 8%;
+    height: 3.2px;
+    background-color: #FF7245;
+    position: absolute;
+    top: 230px;
+    left: 714px;
+    transform: translateX(-50%);
+}
+
+.main .main-text .who
+{
+    color: #FF7245;
+    font-size: 30px;
+}
+
+.backgroundNode .root-text h3
+{
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.backgroundNode .cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.backgroundNode .cards .card
+{
+    margin: 10px 15px;
+    width: 33%;
+    max-height: 50%;
+    text-align: center;
+    border: 1px solid #7C7484;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.backgroundNode .cards .card svg
+{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.backgroundNode .cards .card h3
+{
+    margin-bottom: 15px;
+    color: #FF7245;
+}
+
+.backgroundNode .cards .card p
+{
+    color: #7C7484;
+}
+
+
+.backgroundNode .footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118vh;
+    margin-bottom: -498px;
+}
+
+
+.backgroundNode .footer .mediaIcon
+{
+    display: flex; /* Make the icon container a flex container */
+    justify-content: center; /* Distribute items evenly along the main axis */
+    width: 70%; /* Adjust the width as needed */
+
+}
+
+.backgroundNode .footer .mediaIcon svg
+{
+     width: 50px;
+    height: 50px;
+    padding: 10px; 
+    fill: #FF7245;
+    margin-left: 25px;
+}
+
+.footer-content
+{
+    background-color: #7C7484;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-foot h3
+{
+    color: #190835;
+}
+
+.paragraph
+{
+    margin-top: 25px;
+}
+
+.paragraph h5
+{
+    margin-bottom: 10px;
+}
+
+.labelSS input
+{
+    padding: 5px 10px;
+}
+
+.labelSS button
+{
+    padding: 5px 10px;
+    color: #DBE7ED;
+    background-color: #FF7245;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #190835;
+    color: #DBE7ED;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1
+{
+    color: #FF7245;
+}
+
+.border
+{
+    padding: 20px;
+    border: 2px solid #DBE7ED;
+    border-radius: 7px;
+}

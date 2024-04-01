@@ -2,26 +2,26 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// Middleware:
-function timeCheck (req, res, next)
-{
-    let date = new Date();
-    let hours = date.getHours();
-    let days = date.getDay();
+// // Middleware:
+// function timeCheck (req, res, next)
+// {
+//     let date = new Date();
+//     let hours = date.getHours();
+//     let days = date.getDay();
 
-    if (days >= 2 && days <=5 && hours >= 9 && hours <= 17)
-    {
-        next();
-    }else
-    {
-        res.sendFile(__dirname + '/views/4-ErrorPage/ErrorPage.html');
-        console.log(hours, days);
-    }
-};
+//     if (days >= 1 && days <=6 && hours >= 9 && hours <= 17)
+//     {
+//         next();
+//     }else
+//     {
+//         res.sendFile(__dirname + '/views/4-ErrorPage/ErrorPage.html');
+//         console.log(hours, days);
+//     }
+// };
 
 
 app.use(express.static('public'));
-app.use(timeCheck);
+// app.use(timeCheck);
 
 // Route:
 app.get('/', function(req, res){

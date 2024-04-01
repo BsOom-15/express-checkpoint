@@ -308,3 +308,111 @@ svg
     outline: none;
     border: none;
 }
+
+
+.root-text h3
+{
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.cards .card
+{
+    margin: 10px 15px;
+    width: 33%;
+    max-height: 50%;
+    text-align: center;
+    border: 1px solid #7C7484;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.cards .card svg
+{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cards .card h3
+{
+    margin-bottom: 15px;
+    color: #FF7245;
+}
+
+.cards .card p
+{
+    color: #7C7484;
+}
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118vh;
+    margin-bottom: -498px;
+}
+
+
+.footer .mediaIcon
+{
+    display: flex; /* Make the icon container a flex container */
+    justify-content: center; /* Distribute items evenly along the main axis */
+    width: 70%; /* Adjust the width as needed */
+
+}
+
+.footer .mediaIcon svg
+{
+     width: 50px;
+    height: 50px;
+    padding: 10px; 
+    fill: #FF7245;
+    margin-left: 25px;
+}
+
+.main-two
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-two .main-text
+{
+    margin-top: 186px;
+    margin-bottom: 25px;
+}
+
+.main-two .main-text::before
+{
+    content: " ";
+    width: 8%;
+    height: 3.2px;
+    background-color: #FF7245;
+    position: absolute;
+    top: 780px;
+    left: 714px;
+    transform: translateX(-50%);
+}
+
+.main-two .main-text .who
+{
+    color: #FF7245;
+    font-size: 30px;
+}
